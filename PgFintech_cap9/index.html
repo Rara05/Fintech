@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fintech</title>
+    <link rel="icon" type="image/x-icon" href="./imagens/favicon.ico">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+    <header class="p-4">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">
+            <img src="./imagens/menu.png" width="50dvh"><b>Serviços contratados</b>
+        </span>
+    </header>
+
+<!--    menu-->
+    <div id="myNav" class="overlay">
+        <img class="m-4" src="./imagens/menu1.png" width="50dvh">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">
+                <svg width="30" height="31" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.870568 0.371324L14.7147 6.5835L0.91477 15.5452L0.870568 0.371324Z" fill="#9BDC90"/>
+                </svg>
+                Serviços Contratados
+            </a>
+            <a href="#">
+                <svg width="30" height="31" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.870568 0.371324L14.7147 6.5835L0.91477 15.5452L0.870568 0.371324Z" fill="#9BDC90"/>
+                </svg>
+                Análise de Gastos
+            </a>
+            <a href="#">
+                <svg width="30" height="31" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.870568 0.371324L14.7147 6.5835L0.91477 15.5452L0.870568 0.371324Z" fill="#9BDC90"/>
+                </svg>
+                Serviços Disponíveis
+            </a>
+            <a href="src/perfil.html">
+                <svg width="30" height="31" viewBox="0 0 15 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0.870568 0.371324L14.7147 6.5835L0.91477 15.5452L0.870568 0.371324Z" fill="#9BDC90"/>
+                </svg>
+                Perfil
+            </a>
+            <a href="src/login.html" class="logout">
+                <img width="50rem" src="https://img.icons8.com/?size=512&id=VAc5C6O8G5z5&format=png">
+                <h6>logout</h6>
+            </a>
+        </div>
+    </div>
+
+<!--    ^ menu-->
+
+    <div class="wrapper titulo px-5">
+        <h2>ITEM</h2>
+        <h2>VALOR MÊS</h2>
+        <h2>INFO</h2>
+    </div>
+
+    <div class="wrapper item px-5">
+        <h2>Seguro Cartão</h2>
+        <h2>R$ 10,00</h2>
+        <svg width="45" height="45" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29 14.5C29 22.5081 22.5081 29 14.5 29C6.49187 29 0 22.5081 0 14.5C0 6.49187 6.49187 0 14.5 0C22.5081 0 29 6.49187 29 14.5Z" fill="#A1ECC8"/>
+            <path d="M17.68 22H12.1V21.38L13.88 19.98V14.14L12.1 12.9V12.28L15.52 11H16.28V20.5L18.08 21.2L17.68 22ZM15 5C15.4 5 15.7267 5.14667 15.98 5.44C16.2467 5.73333 16.38 6.1 16.38 6.54C16.38 6.84667 16.2867 7.14 16.1 7.42C15.9133 7.68667 15.68 7.9 15.4 8.06C15.12 8.22 14.8467 8.3 14.58 8.3C14.18 8.3 13.8467 8.15333 13.58 7.86C13.3267 7.56667 13.2 7.2 13.2 6.76C13.2 6.45333 13.2933 6.16667 13.48 5.9C13.6667 5.62 13.9 5.4 14.18 5.24C14.46 5.08 14.7333 5 15 5Z" fill="black"/>
+        </svg>
+    </div>
+    <hr>
+    <div class="wrapper item px-5">
+        <h2>LIS Conta</h2>
+        <h2>R$ 3,50</h2>
+        <svg width="45" height="45" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29 14.5C29 22.5081 22.5081 29 14.5 29C6.49187 29 0 22.5081 0 14.5C0 6.49187 6.49187 0 14.5 0C22.5081 0 29 6.49187 29 14.5Z" fill="#A1ECC8"/>
+            <path d="M17.68 22H12.1V21.38L13.88 19.98V14.14L12.1 12.9V12.28L15.52 11H16.28V20.5L18.08 21.2L17.68 22ZM15 5C15.4 5 15.7267 5.14667 15.98 5.44C16.2467 5.73333 16.38 6.1 16.38 6.54C16.38 6.84667 16.2867 7.14 16.1 7.42C15.9133 7.68667 15.68 7.9 15.4 8.06C15.12 8.22 14.8467 8.3 14.58 8.3C14.18 8.3 13.8467 8.15333 13.58 7.86C13.3267 7.56667 13.2 7.2 13.2 6.76C13.2 6.45333 13.2933 6.16667 13.48 5.9C13.6667 5.62 13.9 5.4 14.18 5.24C14.46 5.08 14.7333 5 15 5Z" fill="black"/>
+        </svg>
+    </div>
+    <hr>
+    <div class="wrapper item px-5">
+        <h2>Cesta Produtos</h2>
+        <h2>R$ 5,00</h2>
+        <svg width="45" height="45" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29 14.5C29 22.5081 22.5081 29 14.5 29C6.49187 29 0 22.5081 0 14.5C0 6.49187 6.49187 0 14.5 0C22.5081 0 29 6.49187 29 14.5Z" fill="#A1ECC8"/>
+            <path d="M17.68 22H12.1V21.38L13.88 19.98V14.14L12.1 12.9V12.28L15.52 11H16.28V20.5L18.08 21.2L17.68 22ZM15 5C15.4 5 15.7267 5.14667 15.98 5.44C16.2467 5.73333 16.38 6.1 16.38 6.54C16.38 6.84667 16.2867 7.14 16.1 7.42C15.9133 7.68667 15.68 7.9 15.4 8.06C15.12 8.22 14.8467 8.3 14.58 8.3C14.18 8.3 13.8467 8.15333 13.58 7.86C13.3267 7.56667 13.2 7.2 13.2 6.76C13.2 6.45333 13.2933 6.16667 13.48 5.9C13.6667 5.62 13.9 5.4 14.18 5.24C14.46 5.08 14.7333 5 15 5Z" fill="black"/>
+        </svg>
+    </div>
+    <hr>
+
+
+    <input class="btnAdicionarServiço" >
+    <label class="adcServico">Adicionar Serviço</label>
+
+</body>
+</html>
+
+<script src="anim.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
